@@ -15,3 +15,16 @@ Then open the jupyter lab window:
 ```python
 jupyter lab
 ```
+What I am going to do is to train simple classification model to detect breast cancer.
+```python
+from sklearn.datasets import load_breast_cancer        # loads the data_set
+from sklearn.model_selection import train_test_split   # allows me to split the data into a training portion and into a testing portion
+from sklearn.preprocessing import StandardScaler       # for scaling the data
+from sklearn.neighbors import KNeighborsClassifier     # special type of classifier (breast cancer yes or no)
+```
+```python
+data = load_breast_cancer(as_frame=True).frame         # loaded as a data frame
+```
+```python
+X, y # features (certain attributes of breast cancer
+```
