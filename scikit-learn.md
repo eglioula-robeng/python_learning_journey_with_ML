@@ -26,3 +26,5 @@ data = load_breast_cancer(as_frame=True).frame         # loaded as a data frame
 data                                                   # data will show up after this command
 ```
 ![Breast cancer properties](images/dataset_breast_cancer.png)
+
+When we look at the target column we see the numbers 0 and 1. 0 stands for malignant whereas 1 stands for benign.
