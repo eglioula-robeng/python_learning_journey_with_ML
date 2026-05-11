@@ -23,6 +23,6 @@ from sklearn.neighbors import KNeighborsClassifier     # special type of classif
 data = load_breast_cancer(as_frame=True).frame         # loaded as a data frame
 ```
 ```python
-data
+data                                                   # data will show up after this command
 ```
 ![Breast cancer properties](images/dataset_breast_cancer.png)
