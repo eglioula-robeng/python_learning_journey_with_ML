@@ -24,4 +24,5 @@ data = load_breast_cancer(as_frame=True).frame         # loaded as a data frame
 ```
 ```python
 data
+![Breast ancer properties](Dataset Breast Cancer Eigenschaften.png)
 ```
