@@ -118,4 +118,7 @@ knn.fit(X_train_scaled, y_train)
 ```
 Output
 
-![KNeighbors Output](images/)
+<p float="left">
+  <img src="images/k_neighbors_classifier_return.png" width="45%" />
+  <img src="images/k_neighbors_classifier_return_parameter.png" width="45%" />
+</p>
