@@ -101,3 +101,21 @@ That's the general format for scikit-learn. Now we can split the data into train
 ```python
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=73)    #20% data for testing, 80% for training, 
 ```
+
+Now we can also scale the data:
+
+```python
+scaler = StandardScaler()
+
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+```
+Now to the k-nearest neighbor:
+
+```python
+knn = KNeighborsClassifer()
+knn.fit(X_train_scaled, y_train)
+```
+Output
+
+![KNeighbors Output](images/)
